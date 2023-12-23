@@ -38,6 +38,6 @@ int evalRPN(vector<string>& tokens) {
 }
 
 int main(){
-    vector<string> notes={"2","1","+","3","*"};
+    vector<string> notes={"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
     cout<<evalRPN(notes)<<endl;
 }
